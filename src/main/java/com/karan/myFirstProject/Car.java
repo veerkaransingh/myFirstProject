@@ -9,7 +9,7 @@ public class Car {
     @Autowired
     private Dog dog; // Here we are using dog object of Dog class, this is what we call Dependency injection
 
-    // IOC container keeps dog bean inside it, so that it can be used anywhere
+    // IOC container keeps dog bean inside it, so that it can be used anywhere ..
 
     @GetMapping("/ok")  // now we can visit -- http://localhost:8082/ok, then we can see Always have fun
     public String ok(){
